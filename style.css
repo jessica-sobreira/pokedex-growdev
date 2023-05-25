@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightsalmon;
+    font-family: Verdana, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    border-box; box-sizing;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: 2%;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 27px;
+    margin-top: 3%;
+    }
+
+.display {
+    background-color: gray;
+    height: 80vh;
+    width: 25vw;
+    position: absolute;
+    left: 2%;
+    margin-top: 2%;
+    padding: 15px;
+    
+}
+
+.links a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+    position: relative;
+    bottom: 45px;
+    top: 300px;
+}
+
+.links a:hover {
+    color: blue;
+}
+
+.display_imagem {
+    position: absolute;
+    top: 20%;
+
+}
+
+.imagem {
+    position: absolute;
+    height: 55%;
+    left: 35%;
+    top: 22%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pikachu, .squirtle {
+    background-color: lightgoldenrodyellow;
+    height: 80vh;
+    width: 60vw;
+    position: absolute;
+    right: 20%;
+    top: 85.2px;
+    left: 33%;
+
+}
+
+.eletric {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 9%;
+    width: 50%;
+    position: absolute;
+    left: 27%;
+    top: 85%;
+}
+
+.agua {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    height: 9%;
+    width: 50%;
+    position: absolute;
+    left: 27%;
+    top: 85%;
+
+}
